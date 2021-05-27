@@ -98,4 +98,5 @@ tasks.getByName("build").dependsOn(packForXcode)
 dependencies {
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.testng:testng:6.9.6")
+    testImplementation("org.junit.jupiter:junit-jupiter")
 }
