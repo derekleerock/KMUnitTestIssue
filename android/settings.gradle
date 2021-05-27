@@ -1,0 +1,9 @@
+// Must be the first block in this file.
+pluginManagement {
+    plugins {
+        id "org.jetbrains.kotlin.multiplatform" version "${kotlinVersion}" apply false
+    }
+}
+
+include ":app"
+include ':KMUnitTestIssueShared'
